@@ -1,5 +1,11 @@
+@font-face {
+    font-family: "Curse Timer";
+    src: url(CursedTimerUlil-Aznm.ttf);
+}
+
 body {
     margin: 0;
+    font-family: "Curse Timer";
 }
 
 .container {
