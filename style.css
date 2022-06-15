@@ -5,10 +5,86 @@
 
 body {
     margin: 0;
+    background: #1B244A;
+    color: #EEEEEE;
     font-family: "Curse Timer";
+    text-align: center;
 }
+
 
 .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    column-gap: 100px;
+}
+
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    line-height: 36px;
+    margin-bottom: 21px;
+    margin-top: 68px;
+}
+
+.count-box {
+    background: #080001;
+    border-radius: 5px;
+    height: 120px;
+    width: 155px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.pts {
+    margin-top: 26px;
+}
+
+h2 {
+    color: #F94F6D;
+    font-size: 90px;
+    font-weight: 400;
+    margin: 0;
+    padding-top: 15px;
+}
+
+.pts-btn {
+    background: #1B244A;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    color: #9AABD8;
+    cursor: pointer;
+    font-family: "Curse Timer";
+    font-size: 18px;
+    height: 45px;
+    width: 45px;
+}
+
+.pts-btn:hover {
+    background: #9AABD8;
+    border-color: #F94F6D;
+    color: #1B244A;
+}
+
+#footer-wrap {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 50px;
+}
+
+.icon-social {
+    width: 35px;
+    height: auto;
+}
+
+.copyright {
+    color: #9AABD8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    margin: 8px auto 16px auto;
 }

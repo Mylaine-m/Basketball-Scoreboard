@@ -9,30 +9,42 @@
 </head>
 <body>
     <div class="container">
-        <div>
+        <div class="items">
             <h3>HOME</h3>
-            <div>
+            <div class="count-box">
                 <h2 id="count-home">0</h2>
             </div>
-            <div>
-                <button id="add-1-btn" onclick="add1PtHome()">+1</button>
-                <button id="add-2-btn" onclick="add2PtsHome()">+2</button>
-                <button id="add-3-btn" onclick="add3PtsHome()">+3</button>
+            <div class="pts">
+                <button id="add-1-btn" class="pts-btn" onclick="add1PtHome()">+1</button>
+                <button id="add-2-btn" class="pts-btn" onclick="add2PtsHome()">+2</button>
+                <button id="add-3-btn" class="pts-btn" onclick="add3PtsHome()">+3</button>
             </div>
         </div>
 
-        <div>
+        <div class="items">
             <h3>GUEST</h3>
-            <div>
+            <div class="count-box">
                 <h2 id="count-guest">0</h2>
             </div>
-            <div>
-                <button id="add-1-btn" onclick="add1PtGuest()">+1</button>
-                <button id="add-2-btn" onclick="add2PtsGuest()">+2</button>
-                <button id="add-3-btn" onclick="add3PtsGuest()">+3</button>
+            <div class="pts">
+                <button id="add-1-btn" class="pts-btn" onclick="add1PtGuest()">+1</button>
+                <button id="add-2-btn" class="pts-btn" onclick="add2PtsGuest()">+2</button>
+                <button id="add-3-btn" class="pts-btn" onclick="add3PtsGuest()">+3</button>
             </div>
         </div>
     </div>
     <script src="index.js"></script>
+
+    <footer>
+        <div id="footer-wrap">
+            <a href="mailto: mylainemordretpro@gmail.com">
+                <img class="icon-social" src="images/email.svg" alt="email icon">
+            </a>
+            <a href="https://github.com/Mylaine-m" target="_blank">
+                <img class="icon-social" src="images/github.svg" alt="github icon">
+            </a>
+        </div>
+        <p class="copyright">Made by Mylaine Mordret © 2022</p>
+    </footer>
 </body>
 </html>
